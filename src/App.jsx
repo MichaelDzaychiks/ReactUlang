@@ -83,7 +83,7 @@ function MovieList({ movies, onSelectMovieId }) {
 
 function App() {
   const [movies, setMovies] = useState([]);
-  const [query, setQuery] = useState("oppenheimer");
+  const [query, setQuery] = useState("barbie");
   const [selectedMovieId, setSelectedMovieId] = useState(null);
 
   function handleSelectMovieId(id) {
